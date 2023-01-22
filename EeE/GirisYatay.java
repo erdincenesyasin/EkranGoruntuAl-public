@@ -22,14 +22,8 @@ public class GirisYatay extends JFrame {
         LocalDate bugun= LocalDate.now();
         LocalDate sonGun=LocalDate.parse("2023-02-05");
         long kalanGun = ChronoUnit.DAYS.between(bugun, sonGun);
-        JOptionPane.showMessageDialog(null,"<HTML>Kalan süre " + kalanGun + " gün kaldı <br> SINIRLI SAYIDA KİŞİYLE TEST YAPILMAKTADIR.</HTML>","BETA TEST SÜRÜMÜDÜR Telegram:  İCRA YAZILIM ",JOptionPane.INFORMATION_MESSAGE);
-        if(bugun.isAfter(sonGun)){
-            //frame.setEnabled(true);
-            JOptionPane.showMessageDialog(null,"Programın süresi bitti, Version: V.1.0 'i indirin..","Telegram İCRA YAZILIM ",JOptionPane.INFORMATION_MESSAGE);
-            return;
-
-        }
-
+      
+       
 
         EkranOlculerifinal ekranOlculerifinal = new EkranOlculerifinal();
         int h = ekranOlculerifinal.screenHeight;
