@@ -87,7 +87,7 @@ public class GirisYatay extends JFrame {
         panelOrta.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
 
         JLabel labelinfo = new JLabel();
-        labelinfo.setText("<html>Eğitim amaçlı kodlanmıştır. Testleri bitmemiştir. Ücretsizdir.<br>Hata ve öneri bildirimi için erdinc_19@hotmail.com</html>");
+        labelinfo.setText("<html>Eğitim amaçlı kodlanmıştır. Testleri bitmemiştir. Ücretsizdir.<br>Hata ve öneri bildirimi için xxxxx</html>");
 
         labelinfo.setBounds(baslangicX + 550, 0, 360, 120);
 
